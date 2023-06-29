@@ -7,7 +7,7 @@ public class Main {
         for (int a : arr) {
             try {
                 sum += a;
-            } catch (IllegalArgumentException e) {
+            } catch (NumberFormatException e) {
                 e.printStackTrace();
             }
         }
